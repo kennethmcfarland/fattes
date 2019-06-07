@@ -1,0 +1,251 @@
+<!-- Fatte's Pizza of Grover Beach -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fatte's Pizza of Grover Beach</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Imports and Frameworks -->
+
+<!-- Font from Google -->
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" /> 
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<style>
+body {
+	font-family: "Open Sans";
+}
+
+h4 {
+  color: #ce600c;
+}
+</style>
+
+
+<div class="container">
+    <nav class="navbar navbar-default navbar-light">
+    <div class="container-fluid">
+      <div class="navbar-header">
+       <a href="/">
+       <img src="slogo.png" class="navbar-brand" style="width:100px;height:80px;padding-top:0px;padding-bottom:0px;padding-right:10px;"/>
+       </a>         
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar2">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div id="navbar2" class="navbar-collapse collapse">
+       
+        <ul class="nav navbar-nav navbar-right">
+          
+          <li class="dropdown" class="nav-item active">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+              <h4>
+                <span class="glyphicon glyphicon-cutlery"></span> Menu
+              </h4>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="pizza.html">Pizza</a></li>
+              <li><a href="sides.html#wings">Wings</a></li>
+              <li><a href="sides.html#salad">Salads</a></li>
+              <li><a href="sides.html#subs">Submarines</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a href="#"><h4><span class="glyphicon glyphicon-hand-right"></span> Directions</h4></a></li>
+          <li class="nav-item"><a href="specials.html"><h4><span class="glyphicon glyphicon-piggy-bank"></span> Specials</h4></a></li>
+          <li class="nav-item"><a href="tel:805-489-5555">
+            <h4><span class="glyphicon glyphicon-earphone"></span> (805) 489-5555</h4></a>
+          </li>
+
+      </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+    <!--/.container-fluid -->
+  </nav>
+</div>
+<!-- End Navbar -->
+
+
+ <!-- Begin Page Content -->
+
+<div class="container text-center">
+
+  <h1 style="font-weight:bold" id="subs">Submarines</h1>
+  <h4 style="font-style:italic">- Don't forget, we deliver!</h4>
+
+  <div class="row">
+   
+    <div class="col-sm-2">
+      <div class="well">
+        <img src="thsub.jpg" class="img-thumbnail" alt="Pizza" style="padding:0px;"/>
+        <h4>Monster Combo</h4><br/><br/>
+        <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#monsterModal" style="margin:auto;">
+        Details
+        </button>     
+      </div>
+    </div>
+
+    <div class="col-sm-2">
+      <div class="well">
+        <img src="thsub.jpg" class="img-thumbnail" alt="Pizza" style="padding:0px;"/>
+        <h4>Roast Beef and Cheese</h4><br/><br/>
+        <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#roastbeefModal" style="margin:auto;">
+        Details
+        </button>     
+      </div>
+    </div>
+ 
+
+
+ 
+    <div class="col-sm-2">
+      <div class="well">
+        <img src="thsub.jpg" class="img-thumbnail" alt="Pizza" style="padding:0px;"/>
+        <h4>Italian Sausage and Cheese</h4><br/>
+        <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#sausageModal" style="margin:auto;">
+        Details
+        </button>
+      </div>     
+    </div>
+
+    <div class="col-sm-2">
+      <div class="well">
+        <img src="thsub.jpg" class="img-thumbnail" alt="Pizza" style="padding:0px;"/>
+        <h4>Ham and Cheese</h4><br/><br/>
+        <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#hamModal" style="margin:auto;">
+        Details
+        </button>
+      </div>     
+    </div>
+
+    <div class="col-sm-2">
+      <div class="well">
+        <img src="thsub.jpg" class="img-thumbnail" alt="Pizza" style="padding:0px;"/>
+        <h4>Meatball Marinara</h4><br/><br/>
+        <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#meatballModal" style="margin:auto;">
+        Details
+        </button>
+      </div>     
+    </div>
+
+    <div class="col-sm-2">
+      <div class="well">
+        <img src="thsub.jpg" class="img-thumbnail" alt="Pizza" />
+        <h4>Garlic Bread</h4><br/><br/><br/>
+        <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#breadModal" style="margin:auto;">
+        Details
+        </button> 
+      </div>    
+    </div>
+  </div> 
+
+  <h1 style="font-weight:bold" id ="wings">Chicken Wings</h1>
+  <h4 style="font-style:italic">- We have the sauce.</h4>
+
+    <div class="row">   
+    <div class="col-sm-4">
+      <div class="well">
+        <img src="thwings.jpg" class="img-thumbnail" style="padding:0px;"/>
+        <h4>Spicy Wings</h4>
+        <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#stickyModal" style="margin:auto;">
+        Details
+        </button>     
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="well">
+        <img src="thwings.jpg" class="img-thumbnail" style="padding:0px;"/>
+        <h4>Teriaki Wings</h4>
+        <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#hawaiianModal" style="margin:auto;">
+        Details
+        </button>     
+      </div>
+    </div>
+ 
+    <div class="col-sm-4">
+      <div class="well">
+        <img src="thwings.jpg" class="img-thumbnail" style="padding:0px;"/>
+        <h4>Garlic BBQ Wings</h4>
+        <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#veggieModal" style="margin:auto;">
+        Details
+        </button>
+      </div>     
+    </div>
+<!-- /.row -->
+  </div>
+
+  <h1 style="font-weight:bold" id="salad">Salads</h1>
+  <h4 style="font-style:italic">- Dont forget the sides.</h4>
+    <div class="row">   
+    <div class="col-sm-4">
+      <div class="well">
+        <img src="thsalad.jpg" class="img-thumbnail" style="padding:0px;"/>
+        <h4>Antipasto Salad</h4>
+        <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#stickyModal" style="margin:auto;">
+        Details
+        </button>     
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="well">
+        <img src="thsalad.jpg" class="img-thumbnail" style="padding:0px;"/>
+        <h4>Teriaki Wings</h4>
+        <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#hawaiianModal" style="margin:auto;">
+        Details
+        </button>     
+      </div>
+    </div>
+ 
+    <div class="col-sm-4">
+      <div class="well">
+        <img src="thsalad.jpg" class="img-thumbnail" style="padding:0px;"/>
+        <h4>Garlic BBQ Wings</h4>
+        <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#veggieModal" style="margin:auto;">
+        Details
+        </button>
+      </div>     
+    </div>
+<!-- /.row -->
+  </div>
+
+</div>
+
+
+<!-- Modal Content Here -->
+<!-- Monster Combo Modal -->
+<div class="modal fade" id="monsterModal" role="dialog">
+  <div class="modal-dialog">
+<!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Monster Combo - $8.99</h4>
+      </div>
+      <div class="modal-body">
+        <p>Roast Beef, Ham, Pepperoni, Italian Sausage and Cheese</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+      
+  </div>
+</div>
+
+
+</body>
+</html>
